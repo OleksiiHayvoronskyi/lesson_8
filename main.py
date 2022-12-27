@@ -7,15 +7,12 @@
 # про конфлікт. Вирішити конфлікт. Зробити коміт у гілці master.
 
 
-# Функція, яка рахує числа Фібоначчі.
-def main_function(n):
-    if n < 0:
-        print('Not correct value')
-    elif n == 0:
-        return 0
-    elif n == 1 or n == 2:
-        return 1
-    '''Далі ще буде 2 рядки коду'''
+# Функція у гілці test.
+def test_function(name):
+    print(f'Hello, new branch {name}')
+
+
+test_function('"test"')
 
 
 
