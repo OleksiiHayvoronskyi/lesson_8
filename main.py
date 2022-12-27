@@ -22,3 +22,15 @@ def main_function(n):
 
 # Виведе перші 10 чисел ряду Фібоначчі.
 print([main_function(n) for n in range(15)])
+
+
+# Завдання 1. Продовження у гілці test.
+# Функція у гілці test.
+
+
+def test_function(name, massage):
+    print(f'Hello, new branch {name}!')
+    print(f'{massage}')
+
+
+test_function('"test"', 'I am glad to see you in PyCharm.')
