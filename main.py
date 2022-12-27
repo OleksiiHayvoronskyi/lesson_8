@@ -15,6 +15,7 @@ def main_function(n):
         return 0
     elif n == 1 or n == 2:
         return 1
+    '''Далі ще буде 2 рядки коду'''
 
 
 
