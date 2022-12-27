@@ -8,11 +8,13 @@
 
 
 # Функція у гілці test.
-def test_function(name):
-    print(f'Hello, new branch {name}')
+def test_function(name, massage):
+    print(f'Hello, new branch {name}!')
+    print(f'{massage}')
 
 
-test_function('"test"')
+test_function('"test"', 'I am glad to see you in PyCharm.')
+
 
 
 
