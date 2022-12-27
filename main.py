@@ -21,16 +21,24 @@ def main_function(n):
 
 
 # Виведе перші 10 чисел ряду Фібоначчі.
+print('--- 1st part of Task 1 ---')
 print([main_function(n) for n in range(15)])
 
 
 # Завдання 1. Продовження у гілці test.
 # Функція у гілці test.
 
-
 def test_function(name, massage):
+    print('\n--- 2nd part of Task 1 ---')
     print(f'Hello, new branch {name}!')
     print(f'{massage}')
 
 
 test_function('"test"', 'I am glad to see you in PyCharm.')
+
+'''
+Конфлікт злиття, який виник через зміну однакової частину коду у обох гілках,
+вирішив через внесення вручну правок у код.
+Потім командами: git add . та git commit -m, вніс у гілку майстер 
+відповідні корективи. Знову виконав команду: git merge test.
+'''
